@@ -33,6 +33,11 @@ const data = {
       parent: 1
     },
     {
+      id: 35,
+      name: 'asdf',
+      parent: 1
+    },
+    {
       id: 4,
       name: 'Four',
       parent: 3
@@ -41,8 +46,40 @@ const data = {
       id: 5,
       name: 'Five'
     }
+  ],
+  members: [
+    {
+      name: 'A',
+      member: [1],
+      lead: 1
+    },
+    {
+      name: 'B',
+      member: [2],
+      lead: 2
+    },
+    {
+      name: 'C',
+      member: [2]
+    },
+    {
+      name: 'D',
+      member: [2, 3]
+    },
+    {
+      name: 'E',
+      member: [3],
+      lead: 3
+    },
+    {
+      name: 'F',
+      member: [4]
+    },
+    {
+      name: 'G',
+      member: [4]
+    }
   ]
 };
-
 
 export default data;
