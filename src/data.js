@@ -19,22 +19,27 @@ G: 4
 const data = {
   groups: [
     {
-      name: '1'
+      id: 1,
+      name: 'One'
     },
     {
-      name: '2',
-      parent: '1'
+      id: 2,
+      name: 'Two',
+      parent: 1
     },
     {
-      name: '3',
-      parent: '1'
+      id: 3,
+      name: 'Three',
+      parent: 1
     },
     {
-      name: '4',
-      parent: '3'
+      id: 4,
+      name: 'Four',
+      parent: 3
     },
     {
-      name: '5'
+      id: 5,
+      name: 'Five'
     }
   ]
 };
