@@ -19,65 +19,65 @@ G: 4
 const data = {
   groups: [
     {
-      id: 1,
+      id: '1',
       name: 'One'
     },
     {
-      id: 2,
+      id: '2',
       name: 'Two',
-      parent: 1
+      parent: '1'
     },
     {
-      id: 3,
+      id: '3',
       name: 'Three',
-      parent: 1
+      parent: '1'
     },
     {
-      id: 35,
+      id: '35',
       name: 'asdf',
-      parent: 1
+      parent: '1'
     },
     {
-      id: 4,
+      id: '4',
       name: 'Four',
-      parent: 3
+      parent: '3'
     },
     {
-      id: 5,
+      id: '5',
       name: 'Five'
     }
   ],
   members: [
     {
       name: 'A',
-      member: [1],
-      lead: 1
+      groupIds: ['1'],
+      lead: '1'
     },
     {
       name: 'B',
-      member: [2],
-      lead: 2
+      groupIds: ['2'],
+      lead: '2'
     },
     {
       name: 'C',
-      member: [2]
+      groupIds: ['2', '3', '35']
     },
     {
       name: 'D',
-      member: [2, 3]
+      groupIds: ['2', '3']
     },
     {
       name: 'E',
-      member: [3],
-      lead: 3
+      groupIds: ['3'],
+      lead: '3'
     },
     {
       name: 'F',
-      member: [4]
+      groupIds: ['4']
     },
     {
       name: 'G',
-      member: [4]
+      groupIds: ['4']
     }
   ]
 };

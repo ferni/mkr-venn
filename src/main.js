@@ -1,4 +1,7 @@
 import data from './data';
+import validateData from './validate-data';
+
+validateData(data);
 
 const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
