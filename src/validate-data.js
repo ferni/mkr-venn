@@ -15,8 +15,8 @@ function validateData(data) {
   }
 
   data.members.forEach((m) => {
-    if (m.groupIds.length > 4) {
-      throw 'Invalid data: A member cannot belong to more than four groups.';
+    if (m.groupIds.length > 3) {
+      throw 'Invalid data: A member cannot belong to more than three groups.';
     }
     const firstGroup = getGroup(m.groupIds[0]);
     m.groupIds.forEach((groupId) => {
