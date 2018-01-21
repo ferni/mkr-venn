@@ -25,8 +25,13 @@ function circle(group, x, y, radius) {
     draw: function() {
       ctx.beginPath();
       ctx.strokeStyle = this.color;
+      ctx.lineWidth = 1.5;
       ctx.arc(this.x, this.y, this.radius, 0, 2 * Math.PI);
       ctx.stroke();
+      ctx.globalAlpha = 0.1;
+      ctx.fillStyle = this.color;
+      ctx.fill();
+      ctx.globalAlpha = 1.0;
       this.children.forEach(function (circle) {
         circle.draw.call(circle);
       });
