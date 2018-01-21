@@ -25,17 +25,20 @@ const data = {
     {
       id: '2',
       name: 'Two',
-      parent: '1'
+      parent: '1',
+      color: 'red'
     },
     {
       id: '3',
       name: 'Three',
-      parent: '1'
+      parent: '1',
+      color: 'green'
     },
     {
       id: '35',
       name: 'asdf',
-      parent: '1'
+      parent: '1',
+      color: 'blue'
     },
     {
       id: '4',
@@ -78,6 +81,10 @@ const data = {
     {
       name: 'G',
       groupIds: ['4']
+    },
+    {
+      name: 'H',
+      groupIds: ['1', '5']
     }
   ]
 };
